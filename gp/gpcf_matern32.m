@@ -712,6 +712,7 @@ function DKff = gpcf_matern32_cfdg(gpcf, x, x2, dims)
 %  See also
 %    GPCF_MATERN32_GINPUT
 
+DKff = {};
 if isfield(gpcf,'metric')
     error('Metric doesnt work with grad.obs')
 end

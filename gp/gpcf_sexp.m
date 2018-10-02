@@ -747,6 +747,7 @@ function DKff = gpcf_sexp_cfdg(gpcf, x, x2, dims)
 %  See also
 %    GPCF_SEXP_GINPUT
 
+DKff = {};
 if isfield(gpcf,'metric')
     error('Metric doesnt work with grad.obs')
 end
